@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootsland - Modern Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Build a Beautiful, Clean & Modern Design website with flexible Bootstrap components" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-box-seam me-2"></i>Bootsland
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-lg-3">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 hero-content">
+                    <span class="hero-badge">Ever Created For</span>
+                    <h1 class="hero-title">Let's Work With <span class="text-gradient">Bootsland</span></h1>
+                    <p class="hero-text">Build a Beautiful, Clean & Modern Design website with flexible Bootstrap components.</p>
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-primary btn-lg">
+                            <i class="bi bi-rocket me-2"></i>Get Started
+                        </a>
+                        <a href="#about" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-play-circle me-2"></i>Learn More
+                        </a>
+                    </div>
+                    <div class="hero-clients">
+                        <p class="small text-muted mb-2">Trusted by leading companies</p>
+                        <div class="client-logos">
+                            <span class="client-logo"><i class="bi bi-google"></i></span>
+                            <span class="client-logo"><i class="bi bi-microsoft"></i></span>
+                            <span class="client-logo"><i class="bi bi-apple"></i></span>
+                            <span class="client-logo"><i class="bi bi-spotify"></i></span>
+                            <span class="client-logo"><i class="bi bi-slack"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-bg"></div>
+                        <div class="hero-image-content">
+                            <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hero Illustration" class="hero-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#features">
+                <i class="bi bi-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========== FEATURES SECTION ========== -->
+    <section id="features" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Features</span>
+                <h2 class="section-title">Amazing Features</h2>
+                <p class="section-subtitle">Discover powerful features designed to help you build better products faster</p>
+            </div>
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h4>Creative Design</h4>
+                        <p>Beautiful and modern designs that capture attention and engage your audience effectively.</p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning-charge"></i>
+                        </div>
+                        <h4>Easy To Start</h4>
+                        <p>Get started quickly with our intuitive setup process and comprehensive documentation.</p>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <h4>Easy Management</h4>
+                        <p>Manage your projects efficiently with our powerful and user-friendly dashboard.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Us" class="about-image" />
+                        <div class="about-experience">
+                            <span class="number">10+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-badge">About Us</span>
+                        <h2 class="section-title text-start">We're A Creative Software Landing Page</h2>
+                        <p class="mb-4">We use the latest technologies to deliver exceptional results. Our team is dedicated to creating innovative solutions that help businesses grow and succeed in the digital world.</p>
+                        <div class="about-features">
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Fully Responsive Design</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Based On Bootstrap 5</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Clean & Modern Code</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>SVG Icon Integration</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Easy to Customize</span>
+                            </div>
+                            <div class="about-feature-item">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>24/7 Premium Support</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary btn-lg mt-4">
+                            <i class="bi bi-arrow-right me-2"></i>Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Services</span>
+                <h2 class="section-title">What We Offer</h2>
+                <p class="section-subtitle">One platform, deep insight - choose Bootsland for your success</p>
+            </div>
+            <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-phone-landscape"></i>
+                        </div>
+                        <h4>App Development</h4>
+                        <p>Build powerful mobile applications that deliver exceptional user experiences across all platforms.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4>Clean Code</h4>
+                        <p>Well-structured, maintainable code that follows best practices and industry standards.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-window-desktop"></i>
+                        </div>
+                        <h4>Software Development</h4>
+                        <p>Custom software solutions tailored to your specific business needs and requirements.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-sliders"></i>
+                        </div>
+                        <h4>Easy to Customize</h4>
+                        <p>Flexible architecture that allows easy customization and modification of components.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h4>24/7 Support</h4>
+                        <p>Round-the-clock expert support to ensure your projects run smoothly at all times.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- Service 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4>Digital Marketing</h4>
+                        <p>Strategic digital marketing campaigns that drive growth and maximize ROI.</p>
+                        <a href="#" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-badge">!</span>
+                        <h2 class="section-title text-start">Bootsland Focus on your success</h1>
+                            <p>We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            <div class="d-flex">
+                                <div class="me-4"><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100" class="rounded-circle profile-img" alt="Client" /></div>
+                                <div><h3>Kendra Law</h3>
+                                <p>Web Developer</p></div>
+
+                            </div>
+                    </div>
+                </div>
+                 <div class="col-lg-6">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Us" class="about-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO SECTION ========== -->
+    <section id="portfolio" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Portfolio</span>
+                <h2 class="section-title">Our Recent Work</h2>
+                <p class="section-subtitle">Check out some of our latest projects and creative works</p>
+            </div>
+            <div class="portfolio-filter mb-5">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="brand">Brand</button>
+            </div>
+            <div class="row g-4 portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 1" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">Web Design</span>
+                                <h5>Creative Dashboard</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 2" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">App Design</span>
+                                <h5>Fitness Tracker App</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="brand">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 3" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">Branding</span>
+                                <h5>Corporate Identity</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 4" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">Web Design</span>
+                                <h5>E-commerce Platform</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 5 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/3861961/pexels-photo-3861961.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 5" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">App Design</span>
+                                <h5>Social Media App</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 6 -->
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="brand">
+                    <div class="portfolio-card">
+                        <img src="https://images.pexels.com/photos/3182823/pexels-photo-3182823.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Project 6" />
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <span class="category">Branding</span>
+                                <h5>Product Launch</h5>
+                                <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">Client Feedback</h2>
+                <p class="section-subtitle">Discover what our clients say about working with us</p>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="testimonial-text">"Bootsland is an amazing landing page platform - all-in-one, clean code, creative and modern design. It helped us build our website in no time!"</p>
+                                    <div class="testimonial-author">
+                                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client" />
+                                        <div class="author-info">
+                                            <h5>Michael Johnson</h5>
+                                            <span>CEO, TechStart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="testimonial-text">"The quality of the design and code is exceptional. It saved us countless hours of development time and the support team is incredibly helpful!"</p>
+                                    <div class="testimonial-author">
+                                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client" />
+                                        <div class="author-info">
+                                            <h5>Sarah Williams</h5>
+                                            <span>Founder, DesignStudio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="testimonial-card text-center">
+                                    <div class="testimonial-rating">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p class="testimonial-text">"I've used many landing page templates, but Bootsland stands out. The attention to detail and modern approach made our project a huge success!"</p>
+                                    <div class="testimonial-author">
+                                        <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Client" />
+                                        <div class="author-info">
+                                            <h5>David Chen</h5>
+                                            <span>CTO, Innovation Labs</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators testimonial-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2>Ready to Start Your Project?</h2>
+                    <p>Get in touch with us and let's create something amazing together!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#" class="btn btn-light btn-lg">
+                        <i class="bi bi-envelope me-2"></i>Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <a href="#home" class="navbar-brand">
+                            <i class="bi bi-box-seam me-2"></i>Bootsland
+                        </a>
+                        <p>Build a Beautiful, Clean & Modern Design website with flexible Bootstrap components.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to get the latest news and updates.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="bi bi-send"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bootsland. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
